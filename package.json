@@ -16,7 +16,7 @@
   "build": {
     "appId": "id.saku.desktop",
     "productName": "Saku",
-    "files": ["main.js", "preload.js", "src/**/*"],
+    "files": ["main.js", "preload.js", "index.html", "src/**/*"],
     "win": { "target": "nsis" },
     "mac": { "target": "dmg", "category": "public.app-category.finance" },
     "linux": { "target": "AppImage", "category": "Office" }
