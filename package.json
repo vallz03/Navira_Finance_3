@@ -4,7 +4,7 @@
   "description": "Saku - aplikasi desktop pencatat keuangan pribadi (Electron + Firebase Realtime Database)",
   "main": "main.js",
   "author": "Saku",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder"
