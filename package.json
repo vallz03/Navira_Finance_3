@@ -1,0 +1,24 @@
+{
+  "name": "saku-desktop",
+  "version": "1.0.0",
+  "description": "Saku - aplikasi desktop pencatat keuangan pribadi (Electron + Firebase Realtime Database)",
+  "main": "main.js",
+  "author": "Saku",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "id.saku.desktop",
+    "productName": "Saku",
+    "files": ["main.js", "preload.js", "src/**/*"],
+    "win": { "target": "nsis" },
+    "mac": { "target": "dmg", "category": "public.app-category.finance" },
+    "linux": { "target": "AppImage", "category": "Office" }
+  }
+}
