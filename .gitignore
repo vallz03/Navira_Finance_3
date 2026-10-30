@@ -1,8 +1,3 @@
 node_modules/
 dist/
 .firebase/
-
-.env
-.env.*
-*.log
-.DS_Store
