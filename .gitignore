@@ -2,8 +2,6 @@ node_modules/
 dist/
 .firebase/
 
-src/js/firebase-config.js
-
 .env
 .env.*
 *.log
