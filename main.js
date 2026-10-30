@@ -27,7 +27,7 @@ function createWindow() {
     },
   })
 
-  mainWindow.loadFile(path.join(__dirname, 'src', 'index.html'))
+  mainWindow.loadFile(path.join(__dirname, 'index.html'))
   mainWindow.once('ready-to-show', () => mainWindow.show())
 
   // Cegah navigasi keluar dari aplikasi; tautan https dibuka di browser bawaan.
